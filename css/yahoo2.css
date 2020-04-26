@@ -425,22 +425,22 @@ header {
 .main_content a:hover {
     text-decoration: underline rgb(54, 86, 226);
 }
-footer {
+.bottom {
     position: bottom;
     bottom: 0;
+    margin-top: 140px;
     width: 360px;
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
 }
-footer ul {
+.bottom ul {
     width: 280px;
 }
-footer li {
+.bottom li {
     float: left;
     margin-right: 30px;
 }
-footer li a {
+.bottom li a {
     font-size: 11px;
     color: rgb(78, 42, 238);
 }
